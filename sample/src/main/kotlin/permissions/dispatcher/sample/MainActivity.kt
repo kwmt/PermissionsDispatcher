@@ -17,14 +17,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val buttonCamera: Button = findViewById(R.id.button_camera)
-        buttonCamera.setOnClickListener {
-            showCameraWithPermissionCheck()
-        }
-        val buttonContacts: Button = findViewById(R.id.button_contacts)
-        buttonContacts.setOnClickListener {
-            showContactsWithPermissionCheck()
-        }
+//        val buttonCamera: Button = findViewById(R.id.button_camera)
+//        buttonCamera.setOnClickListener {
+//            showCameraWithPermissionCheck()
+//        }
+//        val buttonContacts: Button = findViewById(R.id.button_contacts)
+//        buttonContacts.setOnClickListener {
+//            showContactsWithPermissionCheck()
+//        }
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {

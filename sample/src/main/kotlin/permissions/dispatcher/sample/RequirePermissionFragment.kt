@@ -14,11 +14,11 @@ import permissions.dispatcher.*
 import permissions.dispatcher.sample.camera.CameraPreviewFragment
 
 @RuntimePermissions
-class NeedPermissionFragment : Fragment() {
+class RequirePermissionFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_need_permission, container, false)
+        return inflater.inflate(R.layout.fragment_require_permission, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
